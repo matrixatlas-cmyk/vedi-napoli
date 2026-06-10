@@ -1,0 +1,6 @@
+{
+  "name": "Vedi Napoli",
+  "description": "The English home for Napoli football, culture, and matchday life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

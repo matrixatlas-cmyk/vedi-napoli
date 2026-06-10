@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "vedi-napoli",
+          "region": "europe-west2"
+        }
+      }
+    ]
+  }
+}
