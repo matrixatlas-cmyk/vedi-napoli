@@ -11,7 +11,7 @@ export function Header() {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-full max-w-[1200px] mx-auto px-6 md:px-12 py-8 flex justify-between items-center border-b border-napoli-blue/10"
     >
-      <Link to="/" className="scale-[0.45] origin-left transform -ml-4">
+      <Link to="/" className="scale-[0.65] origin-left transform -ml-4">
         <LogoCombination layout="horizontal" />
       </Link>
       <nav className="hidden md:flex items-center gap-8 text-[11px] uppercase tracking-[0.2em] font-semibold text-napoli-blue">
