@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { Instagram, Twitter, Youtube, Mail } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -16,11 +15,19 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-x-8 gap-y-4 text-[11px] uppercase tracking-[0.2em] font-semibold text-charcoal">
-          <a href="#" className="hover:text-napoli-blue transition-colors">Instagram</a>
-          <a href="#" className="hover:text-napoli-blue transition-colors">X / Twitter</a>
-          <a href="#" className="hover:text-napoli-blue transition-colors">YouTube</a>
-          <Link to="/privacy-policy" className="hover:text-napoli-blue transition-colors">Privacy Policy</Link>
+        <div className="flex flex-col gap-6 md:w-2/3 items-start md:items-end md:text-right">
+          <div className="flex flex-wrap gap-x-6 gap-y-3 text-[11px] uppercase tracking-[0.2em] font-semibold text-charcoal justify-start md:justify-end">
+            <a href="https://www.instagram.com/vedinapoli_official/" target="_blank" rel="noreferrer noopener" className="hover:text-napoli-blue transition-colors">Instagram</a>
+          </div>
+          <div className="flex flex-wrap gap-x-6 gap-y-3 text-[11px] uppercase tracking-[0.15em] font-semibold text-charcoal/60 justify-start md:justify-end">
+            <Link to="/about" className="hover:text-napoli-blue transition-colors">About</Link>
+            <Link to="/editorial-standards" className="hover:text-napoli-blue transition-colors">Editorial Standards</Link>
+            <Link to="/corrections-policy" className="hover:text-napoli-blue transition-colors">Corrections Policy</Link>
+            <Link to="/privacy-policy" className="hover:text-napoli-blue transition-colors">Privacy Policy</Link>
+            <Link to="/cookie-notice" className="hover:text-napoli-blue transition-colors">Cookie Notice</Link>
+            <Link to="/terms-of-use" className="hover:text-napoli-blue transition-colors">Terms of Use</Link>
+            <Link to="/contact" className="hover:text-napoli-blue transition-colors">Contact</Link>
+          </div>
         </div>
       </div>
     </footer>
